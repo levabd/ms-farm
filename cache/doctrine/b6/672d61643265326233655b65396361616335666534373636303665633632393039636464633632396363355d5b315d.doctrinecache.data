@@ -1,0 +1,68 @@
+1506458803
+a:2:{s:7:"content";s:7156:"<div class="q_slider">
+    <div class="q_slider_inner">
+        <div id="qode-home"  data-q_responsive_graphic_coefficients = "1,1,0.8,0.7,0.6,0.5,0.4" data-q_responsive_title_coefficients = "1,1,0.8,0.7,0.6,0.5,0.4" data-q_responsive_subtitle_coefficients = "1,1,0.8,0.7,0.6,0.5,0.4" data-q_responsive_text_coefficients = "1,1,0.8,0.7,0.6,0.5,0.4" data-q_responsive_button_coefficients = "1,1,0.8,0.7,0.6,0.5,0.4" class="carousel slide  full_screen  q_auto_start     advanced_responsiveness" data-slide_animation="6000"  data-parallax="yes" style="">
+            <div class="qode_slider_preloader">
+                <div class="ajax_loader" >
+                    <div class="ajax_loader_1">
+                        <div class="pulse"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-inner " data-start="transform: translateY(0px);" data-1440="transform: translateY(-500px);">
+                <div class="item    content_vertical_middle "   style=" padding-top: 100px; ">
+                    <div class="image" style="background-image:url(/user/pages/01.home/01._header/home-slide-1.jpg);"><img itemprop="image" src="/user/pages/01.home/01._header/home-slide-1.jpg" alt="Професіоналізм дорого коштує"></div>
+                    <div class="slider_content_outer">
+                        <div class="slider_content left" style=""  data-0=" opacity: 1;   "  data-300=" opacity: 0;  ">
+                        <div class="slider_content_inner all_at_once no_subtitle no_separator " style="width:61%; position:relative; ">
+                            <div class="text all_at_once no_subtitle no_separator">
+                                <div >
+                                    <h2 class="q_slide_title " style="color: #292929;font-size: 90px;line-height: 90px;font-family:'Open Sans', sans-serif;font-style: normal;font-weight: 500;text-shadow: none;letter-spacing: 0px;text-transform: none;"><span style="">Професіоналізм дорого коштує</span></h2>
+                                </div>
+                                <p class="q_slide_text" style="text-shadow: none;;color: #292929;font-size: 33px;line-height: 40px;font-family: 'Open Sans', sans-serif;font-style: normal;font-weight: 300;text-transform: none" ><span>Володіючи продуктом ми забезпечимо Вам правильне просування в правильному місці по правильній ціні</span></p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item    content_vertical_middle "   style=" padding-top: 100px; ">
+                    <div class="image" style="background-image:url(/user/pages/01.home/01._header/home-slide-2.jpg);"><img itemprop="image" src="/user/pages/01.home/01._header/home-slide-2.jpg" alt="Pharma Brand Development Growth"></div>
+                    <div class="slider_content_outer">
+                        <div class="slider_content right" style=""  data-0=" opacity: 1;   "  data-300=" opacity: 0;  ">
+                        <div class="slider_content_inner all_at_once no_subtitle no_separator " style="width:60%; position:relative; left:38%;">
+                            <div class="text all_at_once no_subtitle no_separator">
+                                <div >
+                                    <h2 class="q_slide_title " style="color: #292929;font-size: 90px;line-height: 90px;font-family: 'Open Sans', sans-serif;font-style: normal;font-weight: 500;text-shadow: none;letter-spacing: 0px;text-transform: none;"><span style="">Pharma Brand Development Growth</span></h2>
+                                </div>
+                                <p class="q_slide_text" style="text-shadow: none;;color: #292929;font-size: 33px;line-height: 40px;font-family: 'Open Sans', sans-serif;font-style: normal;font-weight: 300;text-transform: none" ><span>PBDG Company</span></p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item    content_vertical_middle "   style=" padding-top: 100px; ">
+                    <div class="image" style="background-image:url(/user/pages/01.home/01._header/home-slide-3.jpg);"><img itemprop="image" src="/user/pages/01.home/01._header/home-slide-3.jpg" alt="Величезний досвід"></div>
+                    <div class="slider_content_outer">
+                        <div class="slider_content left" style=""  data-0=" opacity: 1;   "  data-300=" opacity: 0;  ">
+                        <div class="slider_content_inner all_at_once no_subtitle no_separator " style="width:50%; position:relative; ">
+                            <div class="text all_at_once no_subtitle no_separator">
+                                <div >
+                                    <h2 class="q_slide_title " style="color: #292929;font-size: 90px;line-height: 90px;font-family: 'Open Sans', sans-serif;font-style: normal;font-weight: 500;text-shadow: none;letter-spacing: 0px;text-transform: none;"><span style="">Величезний досвід</span></h2>
+                                </div>
+                                <p class="q_slide_text" style="text-shadow: none;;color: #292929;font-size: 33px;line-height: 40px;font-family: 'Open Sans', sans-serif;font-style: normal;font-weight: 300;text-transform: none" ><span>Ми готові забезпечити стабільний та стрімкий ріст продуктів на території України</span></p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators" data-start="opacity: 1;" data-300="opacity:0;">
+                <li data-target="#qode-home" data-slide-to="0" class="active"></li>
+                <li data-target="#qode-home" data-slide-to="1"></li>
+                <li data-target="#qode-home" data-slide-to="2"></li>
+            </ol>
+            <a class="left carousel-control" href="#qode-home" data-slide="prev" data-start="opacity: 0.35;" data-300="opacity:0;"><span class="prev_nav" ><i class="fa fa-angle-left"></i></span><span class="thumb_holder" ><span class="thumb_top clearfix"><span class="arrow_left"><i class="fa fa-angle-left"></i></span><span class="numbers"><span class="prev"></span> / 3</span></span><span class="img_outer"><span class="img"></span></span></span></a><a class="right carousel-control" href="#qode-home" data-slide="next" data-start="opacity: 0.35;" data-300="opacity:0;"><span class="next_nav" ><i class="fa fa-angle-right"></i></span><span class="thumb_holder" ><span class="thumb_top clearfix"><span class="numbers"> <span class="next"></span> / 3</span><span class="arrow_right"><i class="fa fa-angle-right"></i></span></span><span class="img_outer"><span class="img"></span></span></span></a>
+        </div>
+    </div>
+</div>
+";s:12:"content_meta";N;}

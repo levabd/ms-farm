@@ -1,0 +1,15 @@
+email: levabd@gmail.com
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+  site:
+    login: 'true'
+fullname: 'Hovard Wolowitz'
+title: Administrator
+state: enabled
+hashed_password: $2y$10$u/YtpvfjbsFdNekM8Bqt5.2O0Rd2kpN5kjERmSmOaokmwgjgFv0fm
+language: uk
+login_attempts: {  }
+twofa_secret: PS4QIRUUPC752GS7NSIIFXXMUISULGM4
+twofa_enabled: false
