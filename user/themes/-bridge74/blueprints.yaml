@@ -1,0 +1,13 @@
+name:  Bridge74
+version: 0.1.0
+description: Custom theme
+icon: rebel
+author:
+  name: Oleg Levitsky
+  email: levabd@gmail.com
+homepage: https://github.com/oleg-levitsky/grav-theme--bridge74
+demo: http://demo.yoursite.com
+keywords: grav, theme, etc
+bugs: https://github.com/oleg-levitsky/grav-theme--bridge74/issues
+readme: https://github.com/oleg-levitsky/grav-theme--bridge74/blob/develop/README.md
+license: MIT

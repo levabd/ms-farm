@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="{{ grav.language.getLanguage ?: 'en' }}">
+<head>
+  {% block head %}
+  <meta charset="utf-8" />
+  <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
+  {% include 'partials/metadata.html.twig' %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+  <link rel="icon" type="image/x-icon" href="{{ url('theme://img/favicon.ico') }}" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{ url('theme://img/favicon.ico') }}">
+  <link rel="apple-touch-icon" href="{{ url('theme://img/favicon.ico') }}"/>
+
+  {% block stylesheets %}
+    {% do assets.addCss('theme://css/layerslider.css',100) %}
+    {% do assets.addCss('theme://css/contact-form-7/styles.css',100) %}
+    {% do assets.addCss('theme://css/styles.css',100) %}
+    {% do assets.addCss('theme://css/stylesheet.min.css',100) %}
+    {% do assets.addCss('theme://css/print.css',100) %}
+    {% do assets.addCss('theme://css/webkit_stylesheet.css',100) %}
+    {% do assets.addCss('theme://css/style_dynamic.css',100) %}
+    {% do assets.addCss('theme://css/responsive.min.css',100) %}
+    {% do assets.addCss('theme://css/style_dynamic_responsive.css',100) %}
+    {% do assets.addCss('theme://css/custom_css.css',100) %}
+    {% do assets.addCss('theme://css/js_composer.min.css',100) %}
+    {% do assets.addCss('theme://css/font-awesome/css/font-awesome.min.css',100) %}
+    {% do assets.addCss('theme://css/elegant-icons/style.min.css',100) %}
+    {% do assets.addCss('theme://css/linea-icons/style.css',100) %}
+
+    <link href='//fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,300italic,400italic|Hind+Siliguri:100,200,300,400,500,600,700,800,900,300italic,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+  {% endblock %}
+  {{ assets.css() }}
+
+<script type='text/javascript'>
+  /* <![CDATA[ */
+  var LS_Meta = {"v":"5.6.9"};
+  /* ]]> */
+</script>
+
+  <script type='text/javascript' src='/user/themes/-bridge74/js/greensock.js?ver=1.11.8'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/jquery.js?ver=1.12.4'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/jquery-migrate.min.js?ver=1.4.1'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/LayerSlider/layerslider.kreaturamedia.jquery.js?ver=5.6.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/LayerSlider/layerslider.transitions.js?ver=5.6.9'></script>
+
+
+  <!--[if lte IE 9]>
+    <link href="/user/themes/-bridge74/css/vc_lte_ie9.min.css" type="text/css" rel="stylesheet" />
+  <![endif]-->
+  
+  <!--[if IE  8]>
+    <link href="/user/themes/-bridge74/css/vc-ie8.min.css" type="text/css" rel="stylesheet" />
+  <![endif]-->
+
+  <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+  <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1468420979451{padding-top: 120px !important;padding-bottom: 71px !important;}.vc_custom_1469010542810{padding-top: 120px !important;padding-bottom: 70px !important;}.vc_custom_1468484781766{padding-top: 120px !important;padding-bottom: 79px !important;}.vc_custom_1469533445800{padding-top: 108px !important;background-color: #f6f6f6 !important;}.vc_custom_1469010574102{padding-right: 4% !important;}.vc_custom_1469533582717{padding-right: 16% !important;padding-left: 16% !important;}.vc_custom_1468424143369{padding-top: 8.2% !important;padding-bottom: 9.2% !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+
+  {% endblock head%}
+</head>
+<body class="home page page-id-5 page-template page-template-full_width page-template-full_width-php ajax_fade page_not_loaded  qode-title-hidden qode_grid_1300 footer_responsive_adv qode-theme-ver-9.6 wpb-js-composer js-comp-ver-4.12 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
+
+  <div class="wrapper">
+    <div class="wrapper_inner">
+      <!-- Google Analytics start -->
+      <!-- Google Analytics end -->
+      {% block header_navigation %}
+        {% include 'partials/navigation.html.twig' %}
+      {% endblock %}
+
+      <div class="content  has_slider">
+        <div class="content_inner">
+          <style type="text/css" data-type="vc_shortcodes-custom-css-5">.vc_custom_1468420979451{padding-top: 120px !important;padding-bottom: 71px !important;}.vc_custom_1469010542810{padding-top: 120px !important;padding-bottom: 70px !important;}.vc_custom_1468484781766{padding-top: 120px !important;padding-bottom: 79px !important;}.vc_custom_1469533445800{padding-top: 8px !important;background-color: #f6f6f6 !important;}.vc_custom_1469010574102{padding-right: 4% !important;}.vc_custom_1469533582717{padding-right: 16% !important;padding-left: 16% !important;}.vc_custom_1468424143369{padding-top: 8.2% !important;padding-bottom: 9.2% !important;}</style>
+          {% block body %}
+            {% block content %}{% endblock %}
+          {% endblock %}
+        </div>
+      </div>
+
+      {% block footer %}
+        {% include 'partials/footer.html.twig' %}
+      {% endblock %}
+    </div>
+  </div>
+  <script type='text/javascript'>
+  /* <![CDATA[ */
+  var _wpcf7 = {"loaderUrl":"\/user\/themes\/-bridge74\/contact-form-7\/ajax-loader.gif","recaptchaEmpty":"Будь-ласка підтвердіть що ви не робот.","sending":"Надсилання ..."};
+  /* ]]> */
+  </script>
+
+  <script type='text/javascript' src='/user/themes/-bridge74/js/contact-form-7/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/contact-form-7/scripts.js?ver=4.4.2'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/qode-like.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/plugins.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/jquery.carouFredSel-6.2.1.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/lemmon-slider.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/jquery.fullPage.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/jquery.mousewheel.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/jquery.touchSwipe.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/isotope/isotope.pkgd.min.js?ver=4.12'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/jquery.stretch.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/TweenLite.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/ScrollToPlugin.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/smoothPageScroll.min.js?ver=4.5.9'></script>
+  
+  <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBNlYg2cPE3-QTyOSgNN7Rxnr6ScuFD9Vk'></script>
+
+  <script type='text/javascript' src='/user/themes/-bridge74/js/default_dynamic.js?ver=1481193858'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/default.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/custom_js.js?ver=1481193858'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/comment-reply.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/ajax.min.js?ver=4.5.9'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/js_composer_front.min.js?ver=4.12'></script>
+  <script type='text/javascript' src='/user/themes/-bridge74/js/wp-embed.min.js?ver=4.5.9'></script>
+
+
+</body>
+</html>

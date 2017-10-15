@@ -1,0 +1,18 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set show_onpage_menu = header.onpage_menu == true or header.onpage_menu is null %}
+{% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
+
+
+{% block content %}
+    {{ page.content }}
+    {% for module in page.collection() %}
+        {% if loop.index == 2 %}
+<div class="full_width" style='background-color:#ffffff'>
+    <div class="full_width_inner" >
+        {% endif %}
+        {{ module.content }}
+    {% endfor %}
+    </div>
+</div>
+{% endblock %}

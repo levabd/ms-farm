@@ -1,0 +1,178 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set show_onpage_menu = true %}
+{% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
+
+{% block content %}
+
+<div class="content" style="min-height: 501px;">
+    <div class="content_inner  " style="position: relative; visibility: visible; display: block; opacity: 1;">
+        <style type="text/css" data-type="vc_shortcodes-custom-css-146">.vc_custom_1469534501865{padding-top: 59px !important;padding-bottom: 71px !important;}</style>
+        <div class="title_outer title_without_animation" data-height="250">
+            <div class="title title_size_medium  position_center " style="height:250px;">
+                <div class="image not_responsive"></div>
+                <div class="title_holder" style="padding-top:42.5px;height:207.5px;">
+                    <div class="container">
+                        <div class="container_inner clearfix">
+                            <div class="title_subtitle_holder">
+                                <h1><span>{{ page.header.title }}</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="full_width">
+            <div class="full_width_inner">
+                <div class="vc_row wpb_row section vc_row-fluid  grid_section" style=' text-align:left;'>
+                    <div class=" section_inner clearfix">
+                        <div class='section_inner_margin clearfix'>
+                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_gallery wpb_content_element vc_clearfix">
+                                            <div class="wpb_wrapper">
+                                                <div class="wpb_gallery_slides wpb_flexslider flexslider_slide flexslider" data-interval="3" data-flex_fx="slide"data-control="false"data-direction="true">
+                                                    <ul class="slides">
+                                                        {% for item in page.media.images %}
+
+                                                        <li><a itemprop="image" class="prettyphoto" href="{{ item.url }}" data-rel="prettyPhoto[rel-146-203324271]"><img width="1300" height="453" src="{{ item.url }}" class="attachment-full" alt="p" srcset="{{ item.url }}" sizes="(max-width: 1300px) 100vw, 1300px" /></a></li>
+
+                                                        {% endfor %}
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vc_row wpb_row section vc_row-fluid  vc_custom_1469534501865 grid_section" style=" text-align:left;">
+                    <div class=" section_inner clearfix">
+                        <div class="section_inner_margin clearfix">
+                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-3 vc_col-md-3">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <span data-type="square" data-hover-bg-color="#19bb9b" data-hover-icon-color="#ffffff" class="qode_icon_shortcode fa-stack q_font_awsome_icon_square fa-lg  " style="background-color: #2a2a2a;border: 0px solid #2a2a2a;font-size: 18px;font-size: 25px;border-radius: 4px; "><span aria-hidden="true" class="qode_icon_font_elegant {{ page.header.metadata.icon1 }} qode_icon_element" style="font-size: 18px;color: #ffffff;"></span></span>	
+                                        <div class="vc_empty_space" style="height: 21px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                            <h3>{{ page.header.metadata.title1 }}</h3>
+                                            </div>
+                                        </div>
+                                        <div class="vc_empty_space" style="height: 13px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                            <p>{{ page.header.metadata.text1 }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-3 vc_col-md-3">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <span data-type="square" data-hover-bg-color="#19bb9b" data-hover-icon-color="#ffffff" class="qode_icon_shortcode fa-stack q_font_awsome_icon_square fa-lg  " style="background-color: #2a2a2a;border: 0px solid #2a2a2a;font-size: 18px;font-size: 25px;border-radius: 4px; "><span aria-hidden="true" class="qode_icon_font_elegant {{ page.header.metadata.icon2 }} qode_icon_element" style="font-size: 18px;color: #ffffff;"></span></span>	
+                                        <div class="vc_empty_space" style="height: 21px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                            <h3>{{ page.header.metadata.title2 }}</h3>
+                                            </div>
+                                        </div>
+                                        <div class="vc_empty_space" style="height: 13px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                            <p>{{ page.header.metadata.text2 }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-3 vc_col-md-3">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <span data-type="square" data-hover-bg-color="#19bb9b" data-hover-icon-color="#ffffff" class="qode_icon_shortcode fa-stack q_font_awsome_icon_square fa-lg  " style="background-color: #2a2a2a;border: 0px solid #2a2a2a;font-size: 18px;font-size: 25px;border-radius: 4px; "><span aria-hidden="true" class="qode_icon_font_elegant {{ page.header.metadata.icon3 }} qode_icon_element" style="font-size: 18px;color: #ffffff;"></span></span>	
+                                        <div class="vc_empty_space" style="height: 21px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                            <h3>{{ page.header.metadata.title3 }}</h3>
+                                            </div>
+                                        </div>
+                                        <div class="vc_empty_space" style="height: 13px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                            <p>{{ page.header.metadata.text3 }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-3 vc_col-md-3">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <span data-type="square" data-hover-bg-color="#19bb9b" data-hover-icon-color="#ffffff" class="qode_icon_shortcode fa-stack q_font_awsome_icon_square fa-lg  " style="background-color: #2a2a2a;border: 0px solid #2a2a2a;font-size: 18px;font-size: 25px;border-radius: 4px; "><span aria-hidden="true" class="qode_icon_font_elegant {{ page.header.metadata.icon4 }} qode_icon_element" style="font-size: 18px;color: #ffffff;"></span></span>	
+                                        <div class="vc_empty_space" style="height: 21px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                            <h3>{{ page.header.metadata.title4 }}</h3>
+                                            </div>
+                                        </div>
+                                        <div class="vc_empty_space" style="height: 13px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                            <p>{{ page.header.metadata.text4 }}</p>
+                                            </div>
+                                        </div>
+                                        <div class="vc_empty_space" style="height: 40px"><span class="vc_empty_space_inner">
+                                            <span class="empty_space_image"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

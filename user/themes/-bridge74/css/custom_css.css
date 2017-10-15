@@ -1,0 +1,87 @@
+
+
+nav.main_menu>ul>li>a {
+    position: relative;
+    padding: 4px 12px;
+}
+
+header .header_inner_left {
+    left: 29px;
+    top: 4px;
+}
+
+.testimonial_title_holder h5{
+    color: #292929;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+.testimonials_c_holder .testimonial_content_inner .testimonial_author{
+        color: #292929;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+
+.footer_top h5{
+    color: #292929;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+.footer_top .widget.widget_nav_menu li {
+    line-height: 20px;
+}
+
+.four_columns>.column1>.column_inner {
+    padding: 0px 25% 0 0;
+}
+
+.q_counter_holder p.counter_text {
+    margin: 7px 0 0;
+}
+
+.q_counter_holder {
+    padding: 11px 0;
+}
+
+.title_subtitle_holder h1{
+     text-transform: capitalize;
+}
+
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text, .cf7_custom_style_1 textarea.wpcf7-form-control.wpcf7-textarea{
+    text-align: center;
+}
+
+.wpcf7 form.wpcf7-form p {
+    margin-bottom: 7px;
+}
+
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit, .cf7_custom_style_1 input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
+    margin-top: 13px;
+}
+
+.page_not_found h2{
+    font-size: 29px;
+}
+.page_not_found p {
+    margin: 15px 14% 35px;
+}
+
+.full_width {
+position: relative;
+}

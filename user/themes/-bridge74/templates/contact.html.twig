@@ -1,0 +1,58 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set show_onpage_menu = true %}
+{% macro pageLinkName(text) %}{{ text|lower|replace({' ':'_'}) }}{% endmacro %}
+
+{% block content %}
+
+<div class="content ">
+    <div class="content_inner  ">
+        <style type="text/css" data-type="vc_shortcodes-custom-css-125">.vc_custom_1469106367286{padding-bottom: 100px !important;}.vc_custom_1469106213558{padding-top: 85px !important;}</style>
+        <div class="title_outer title_without_animation"    data-height="250">
+            <div class="title title_size_medium  position_center " style="height:250px;">
+                <div class="image not_responsive"></div>
+                <div class="title_holder"  style="padding-top:42.5px;height:207.5px;">
+                    <div class="container">
+                        <div class="container_inner clearfix">
+                            <div class="title_subtitle_holder" >
+                                <h1 ><span>{{ page.header.title }}</span></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="full_width">
+            <div class="full_width_inner" >
+                <div      class="vc_row wpb_row section vc_row-fluid  vc_custom_1469106367286 grid_section" style=' text-align:center;'>
+                    <div class=" section_inner clearfix">
+                        <div class='section_inner_margin clearfix'>
+                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <div class='google_map_shortcode_holder' style='height:460px;'>
+                                            <div class='qode_google_map' style='height:460px;' id='map_canvas_85203' data-addresses='["104 West 27th Street, New York, NY 10001, USA"]' data-custom-map-style='true' data-color-overlay='#393939' data-saturation='-100' data-lightness='20' data-zoom='16' data-pin='/user/themes/-bridge74/img/pin.png' data-unique-id='85203' data-google-maps-scroll-wheel='false' data-map-height='460'></div>
+                                            <div class='google_map_shortcode_overlay'></div>
+                                        </div>
+                                        <div class="vc_empty_space"  style="height: 87px" ><span
+                                            class="vc_empty_space_inner">
+                                            <span class="empty_space_image"  ></span>
+                                            </span>
+                                        </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <h2>{{ page.content }}</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
